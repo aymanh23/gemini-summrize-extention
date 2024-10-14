@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "./@google/generative-ai/dist/index.mjs"; // Import the Gemini AI library
 
-const API_KEY = 'AIzaSyCioN-lrxGdDj2ajYgK1vgsx6KV0pTZJ1I'; // Google API key
+const API_KEY = 'your api key'; // Google API key
 
 const genAI = new GoogleGenerativeAI(API_KEY); // Initialize the Gemini AI instance
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", temperature: 0.0 }); // Use Gemini model with specified settings
